@@ -11,10 +11,10 @@
 
 # Variable Tuning
 #### Initial Speed Setup
-Setup your bot's initial speed according to your need
+Set your bot's initial speed here in this code segment.
    <img src="images/1.png" alt="50" width="600">
 
 #### Defining Different Speed Modes & Top Speed
-Setup your bot's different speed modes & top speed according to your need
+Set up your bot's speed modes & top speed here, according to your needs.
    <img src="images/2.png" alt="700" width="400">
 
