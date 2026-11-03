@@ -53,7 +53,7 @@ void loop() {
   while (serialBT.available()) {
     BT = serialBT.read();
 
-    // Speed control
+    // Speed control (varies from 0 - 255)
     if (BT == '0') Speed = 50;
     if (BT == '1') Speed = 55;
     if (BT == '2') Speed = 60;
