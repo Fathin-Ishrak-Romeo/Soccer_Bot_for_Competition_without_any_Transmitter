@@ -10,7 +10,7 @@
 ----
 
 # Controller App for Android
-Install this [App](https://github.com/Fathin-Ishrak-Romeo/Soccer_Bot_for_Competition_without_any_Transmitter/blob/42f1ce6fa47a787dfee8adb81013b574e2b5375f/Android%20App%20(Bluetooth%20Car%20Controller).apk) on your Android phone to control the soccerbot. 
+Download this [apk](https://github.com/Fathin-Ishrak-Romeo/Soccer_Bot_for_Competition_without_any_Transmitter/blob/42f1ce6fa47a787dfee8adb81013b574e2b5375f/Android%20App%20(Bluetooth%20Car%20Controller).apk) & install this on your Android phone to control the soccerbot. 
 
 # Variable Tuning
 #### Initial Speed Setup
