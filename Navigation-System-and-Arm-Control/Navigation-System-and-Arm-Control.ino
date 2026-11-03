@@ -4,7 +4,7 @@
 
 BluetoothSerial serialBT;
 char BT;
-int Speed = 50;     //let's start at a much lower speed to provide stability: next experiment
+int Speed = 50;     //starts at a much lower speed to provide stability
 
 // ── Motor Pins ──────────────────────────────────────
 int R1PWM = 19;
@@ -26,7 +26,7 @@ int servoPosition = 0;  // tracks current position: 0° or 140°
 // ── Setup ────────────────────────────────────────────
 void setup() {
   Serial.begin(115200);
-  serialBT.begin("RoboKit Garage's Humanoid Robot");  // Your BOT Name
+  serialBT.begin("RoboKit Garage's Soccer Bot");  // Your BOT Name
 
   pinMode(R1PWM, OUTPUT);
   pinMode(R2PWM, OUTPUT);
@@ -77,7 +77,7 @@ void loop() {
     else if (BT == 'I') forward_left();
     else if (BT == 'J') backward_left();
 
-    // Horn button → toggle servo
+    // app's horn button → toggle servo
     else if (BT == 'V') toggle_servo();
   }
 }
@@ -88,7 +88,7 @@ void toggle_servo() {
   myServo.write(servoPosition);
 }
 
-// ── Motor Functions (completely unchanged) ─────────────
+// ── Motor Functions ────────────────────────────────────
 void go_forward() {
   ledcWrite(rmf, Speed);
   ledcWrite(rmb, 0);
